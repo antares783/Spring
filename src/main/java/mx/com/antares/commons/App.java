@@ -15,12 +15,6 @@ public class App {
 		
 		StockBo stockBo= (StockBo) applicationContext.getBean("stockBo");
 		
-		System.out.print("holas");
-		
-		/*
-		 * pruebas sobre git hub
-		 */
-		
 //		insert
 		Stock stock = new Stock();
 		stock.setStockCode("7668");
